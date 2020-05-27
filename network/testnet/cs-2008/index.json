@@ -1,0 +1,64 @@
+{
+  "Main": {
+    "NetworkName": "Goerli testnet",
+    "ChainId": 5,
+    "RPC": "https://goerli.infura.io/v3/70645f042c3a409599c60f96f6dd9fbc",
+    "WatcherAPI": "https://cs-watcher.api.matic.network/",
+    "Explorer": "https://goerli.etherscan.io",
+    "Contracts": {
+      "BytesLib": "0xe49906814B3a1BE82454Ce9Cf80c02Faa128B369",
+      "Common": "0x9bD154d9971A970310c2399778376cBBA9706574",
+      "ECVerify": "0x8de502678352585fA55C9495dCb1f5a706f24332",
+      "Merkle": "0x56884964A8E65D5959232e034e5249DDCA526a56",
+      "MerklePatriciaProof": "0xb91e82BB8e87Bc8F9cacE87Bba95d3b7bf4c9CD9",
+      "PriorityQueue": "0x70c65d1B8147BCf9283b5C087F2FfBa66De5e53F",
+      "RLPEncode": "0x5453A20412d5f39beEaFD33AE31CB33eeb0572c5",
+      "RLPReader": "0xfaaBB57A9cf6Ccf9E108b398359d037927Ca6f0c",
+      "SafeMath": "0xC912cEc45eaDCa350Ce59902AcDf43846AB5f600",
+      "Governance": "0x58B493D2fe03aE39976f2f218f854bB91F371893",
+      "GovernanceProxy": "0x61E1065d19273456d86E825bCf871eb8b67EB59C",
+      "Registry": "0x8cf860A86f5C51862D2ed4Fd0eA0078F6383F2CA",
+      "RootChain": "0x81a4fF31945C1281b2767cDe5cc958e3c1571cFb",
+      "RootChainProxy": "0x245CA2839Bdbc60Bebbb1615eFC7882e1803b513",
+      "ValidatorShareFactory": "0xc9eF17F4d40519Ffd0A7C261750961F7B3c06322",
+      "StakingInfo": "0x398EDE6B0139ff51C65A9aeF4eB29D87E10a08E7",
+      "StakingNFT": "0x5F542ea091d9552CBfC34aFc792Ca574Ff393a2B",
+      "StakeManager": "0xf7cdc936E87f7F5767D3880EeFf3a1586f46C26f",
+      "StakeManagerProxy": "0xC61868EEA4aCA61211414C3FcF80ABc840E3BdE7",
+      "SlashingManager": "0xcfF5C9bbc1101C687a49a0266375318f186406d7",
+      "ValidatorShare": "0x1eD2177692889054270A601e9b5FF69575eBAA25",
+      "StateSender": "0x05a80B65B7C69559506504bCE71F63a552e9B81b",
+      "DepositManager": "0x371b132b6806F275fE7C1867D1143B55E25D6b1C",
+      "DepositManagerProxy": "0x300cb0f446b6D13Ec6f72eA3eCDa7c6F8D2F789b",
+      "WithdrawManager": "0x50C0B27d0cf087A0c5a8bEF01dd7BdafB112d05d",
+      "ExitNFT": "0xA2618a1c426a1684E00cA85b5C736164AC391d35",
+      "WithdrawManagerProxy": "0xfA505eE8C3025cfa7AEeb7b2B0AE060678752E6B",
+      "ERC20Predicate": "0x6A35c66BE864Ba18fdcE59CF5FC70418875271A4",
+      "ERC721Predicate": "0x4126d175154F1507DA470bc22E36F92Fe682Fb1C",
+      "Tokens": {
+        "MaticToken": "0xAFfb23A344B7ebdf4Ea6B5ec27ECC00D12fecd77",
+        "TestToken": "0x79A8114De7d44a7D218D4c64BC5959348087643b",
+        "RootERC721": "0xb95E28537A2d85894D593f124BEcf06Baf9fa2c7",
+        "MaticWeth": "0x7490e0409895704e9Db753AbA7257EE135fADa2D"
+      }
+    }
+  },
+  "Matic": {
+    "NetworkName": "CS 2008",
+    "ChainId": 2008,
+    "RPC": "https://cs-bor.matic.today/",
+    "Contracts": {
+      "ChildChain": "0xaE488CF84A60FFc953154d4bc6657b5201A3Bc81",
+      "Tokens": {
+        "MaticToken": "0x0000000000000000000000000000000000001010",
+        "TestToken": "0x206779CA5d3AA1cb7B65993EB7195B57FF592de1",
+        "RootERC721": "0x4E7C90502878309Bd136f4b00E1c9b00fE0f9E42",
+        "MaticWeth": "0x1E3336D62884ea6343249E4B45f750e54Df18395"
+      }
+    }
+  },
+  "Heimdall": {
+    "ChainId": "heimdall-cs2008",
+    "API": "https://cs-heimdall.api.matic.network/"
+  }
+}
