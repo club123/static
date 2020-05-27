@@ -46,7 +46,7 @@
   "Matic": {
     "NetworkName": "CS 2008",
     "ChainId": 2008,
-    "RPC": "https://cs-bor.matic.today/",
+    "RPC": "https://cs2008-bor.matic.today/",
     "Contracts": {
       "ChildChain": "0xaE488CF84A60FFc953154d4bc6657b5201A3Bc81",
       "Tokens": {
