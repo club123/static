@@ -3,7 +3,7 @@
     "NetworkName": "Goerli testnet",
     "ChainId": 5,
     "RPC": "https://goerli.infura.io/v3/70645f042c3a409599c60f96f6dd9fbc",
-    "WatcherAPI": "https://cs-watcher.api.matic.network/",
+    "WatcherAPI": "https://cs-watcher.api.matic.network/api/v1",
     "Explorer": "https://goerli.etherscan.io",
     "Contracts": {
       "BytesLib": "0xe49906814B3a1BE82454Ce9Cf80c02Faa128B369",
